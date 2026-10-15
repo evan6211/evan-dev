@@ -1,0 +1,386 @@
+@media (max-width: 800px) {
+
+    section {
+
+        padding: 80px 0;
+
+    }
+
+    .nav-links {
+
+        gap: 16px;
+
+    }
+
+    .nav-links a {
+
+        font-size: 0.8rem;
+
+    }
+
+    .skills-container,
+
+    .projects-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    nav {
+
+        height: 60px;
+
+    }
+
+    .logo {
+
+        font-size: 1.1rem;
+
+    }
+
+    .nav-links {
+
+        display: none;
+
+    }
+
+    section {
+
+        width: 88%;
+
+        padding: 70px 0;
+
+    }
+
+    #home {
+
+        min-height: 100vh;
+
+        padding-top: 100px;
+
+    }
+
+    .hero-content h1 {
+
+        letter-spacing: -3px;
+
+    }
+
+    .hero-content h2 {
+
+        line-height: 1.4;
+
+    }
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+    .hero-buttons a {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    section > h2 {
+
+        font-size: 1.6rem;
+
+    }
+
+    .skill-card {
+
+        padding: 20px;
+
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .hero-content h1 {
+
+        font-size: 3.2rem;
+
+    }
+
+    .hero-content h2 {
+
+        font-size: 1.2rem;
+
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    #home {
+
+        grid-template-columns: 1fr;
+
+        gap: 70px;
+
+        padding-top: 120px;
+
+    }
+
+    .hero-content {
+
+        max-width: 650px;
+
+    }
+
+    .hero-visual {
+
+        justify-content: flex-start;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #home {
+
+        gap: 50px;
+
+    }
+
+    .profile-card {
+
+        width: min(100%, 320px);
+
+        min-height: 390px;
+
+    }
+
+    .profile-image {
+
+        height: 250px;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .nav-links {
+
+        display: none;
+
+    }
+
+    .menu-toggle {
+
+        display: flex;
+
+    }
+
+    .mobile-menu.active {
+
+        display: block;
+
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .skills-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .skill-main {
+
+        grid-column: span 1;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .skill-card {
+
+        padding: 22px;
+
+        min-height: 210px;
+
+    }
+
+    .skill-main {
+
+        min-height: 230px;
+
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .project-card {
+
+        flex-basis: calc((100% - 22px) / 2);
+
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .projects-heading {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 22px;
+
+    }
+
+    .project-card {
+
+        flex-basis: 85%;
+
+    }
+
+    .project-visual {
+
+        height: 175px;
+
+    }
+
+    .project-info {
+
+        padding: 18px;
+
+    }
+
+    .carousel-footer {
+
+        gap: 9px;
+
+    }
+
+    .carousel-footer [data-i18n="projects-hint"] {
+
+        max-width: 120px;
+
+    }
+
+    .project-modal-panel {
+
+        max-height: 90vh;
+
+    }
+
+    .modal-visual {
+
+        height: 145px;
+
+    }
+
+    .modal-content {
+
+        padding: 22px 19px;
+
+    }
+
+    .modal-content h2 {
+
+        font-size: 1.3rem;
+
+    }
+
+    .modal-visual {
+        min-height: 160px;
+    }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .projects-track,
+
+    .project-card,
+
+    .project-modal,
+
+    .project-modal-panel,
+
+    .carousel-progress span {
+
+        transition: none !important;
+
+    }
+
+}
+
+
+/* ==================================
+   CONTACT RESPONSIVE
+================================== */
+
+@media (max-width: 800px) {
+    #contact.contact-section {
+        padding: 85px 6%;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 42px;
+    }
+
+    .contact-info {
+        max-width: 600px;
+    }
+
+    .contact-description {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    #contact.contact-section {
+        padding: 70px 6%;
+    }
+
+    .contact-info h2 {
+        font-size: clamp(2rem, 9vw, 2.7rem);
+        letter-spacing: -0.8px;
+    }
+
+    .contact-description {
+        font-size: 0.94rem;
+        line-height: 1.8;
+    }
+
+    .contact-email {
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-card {
+        gap: 13px;
+        padding: 17px;
+    }
+
+    .contact-card-icon {
+        width: 43px;
+        height: 43px;
+    }
+}
+

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Evan — Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/font/lucide.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+
+            <a href="#home" class="logo">
+                Evan.
+            </a>
+
+            <div class="nav-right">
+
+                <ul class="nav-links">
+                    <li><a href="#home" data-i18n="nav-home">Home</a></li>
+                    <li><a href="#about" data-i18n="nav-about">About</a></li>
+                    <li><a href="#skills" data-i18n="nav-skills">Skills</a></li>
+                    <li><a href="#projects" data-i18n="nav-projects">Projects</a></li>
+                    <li><a href="#journey" data-i18n="nav-journey">Journey</a></li>
+                    <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+                </ul>
+
+                <button class="language-switch" id="languageSwitch">
+                    ID
+                </button>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+
+        </nav>
+
+        <div class="mobile-menu" id="mobileMenu">
+
+            <a href="#home" data-i18n="nav-home">Home</a>
+            <a href="#about" data-i18n="nav-about">About</a>
+            <a href="#skills" data-i18n="nav-skills">Skills</a>
+            <a href="#projects" data-i18n="nav-projects">Projects</a>
+            <a href="#journey" data-i18n="nav-journey">Journey</a>
+            <a href="#contact" data-i18n="nav-contact">Contact</a>
+
+        </div>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero -->
+        <section id="home">
+
+            <div class="hero-content">
+
+                <p class="hero-label" data-i18n="hero-greeting">
+                    Hello, I'm
+                </p>
+
+                <h1 class="hero-title">
+                    Evan
+                </h1>
+
+                <h2 class="hero-subtitle" data-i18n="hero-subtitle">
+                    IT Student & Web Developer
+                </h2>
+
+                <p class="hero-description" data-i18n="hero-description">
+                    I build websites, explore computer networks,
+                    and learn about cybersecurity.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" data-i18n="hero-projects">
+                        View Projects
+                    </a>
+
+                    <a href="#contact" data-i18n="hero-contact">
+                        Contact Me
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="profile-card">
+
+                    <div class="card-glow"></div>
+
+                    <div class="profile-image">
+                        <img src="assets/images/profile/profile.jpg" alt="Evan">
+                    </div>
+
+                    <div class="profile-info">
+                        <span>EVAN</span>
+                        <small data-i18n="card-role">
+                            IT Student
+                        </small>
+                    </div>
+
+                    <div class="card-line"></div>
+
+                    <div class="profile-tech">
+                        <span>WEB</span>
+                        <span>NETWORK</span>
+                        <span>LINUX</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about">
+
+            <h2 data-i18n="about-title">
+                About Me
+            </h2>
+
+            <p data-i18n="about-text">
+                I'm an IT student from Indonesia who enjoys
+                learning how technology works, from building
+                websites and configuring networks to exploring
+                Linux, IoT, and cybersecurity.
+            </p>
+
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+
+            <h2 data-i18n="skills-title">
+                Skills
+            </h2>
+
+            <p class="section-intro" data-i18n="skills-intro">
+                Some of the technologies and areas I work with.
+            </p>
+
+
+            <div class="skills-grid">
+
+
+                <!-- Web Development -->
+
+                <div class="skill-card skill-main reveal">
+
+                    <div class="skill-number">
+                        01
+                    </div>
+
+                    <div class="skill-content">
+
+                        <h3 data-i18n="skill-web-title">
+                            Web Development
+                        </h3>
+
+                        <p data-i18n="skill-web-text">
+                            Building responsive and interactive websites
+                            using modern web technologies.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>
+                                <i class="devicon-html5-plain"></i>
+                                HTML
+                            </span>
+
+                            <span>
+                                <i class="devicon-css3-plain"></i>
+                                CSS
+                            </span>
+
+                            <span>
+                                <i class="devicon-javascript-plain"></i>
+                                JavaScript
+                            </span>
+
+                            <span>
+                                <i class="devicon-tailwindcss-original"></i>
+                                Tailwind
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Networking -->
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-number">
+                        02
+                    </div>
+
+                    <div class="skill-content">
+
+                        <h3 data-i18n="skill-network-title">
+                            Networking
+                        </h3>
+
+                        <p data-i18n="skill-network-text">
+                            Learning and configuring computer networks
+                            and MikroTik devices.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>
+                                <i class="icon-router"></i>
+                                MikroTik
+                            </span>
+
+                            <span>
+                                <i class="icon-network"></i>
+                                TCP/IP
+                            </span>
+
+                            <span>
+                                <i class="icon-git-branch"></i>
+                                Routing
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Linux -->
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-number">
+                        03
+                    </div>
+
+                    <div class="skill-content">
+
+                        <h3 data-i18n="skill-linux-title">
+                            Linux & Server
+                        </h3>
+
+                        <p data-i18n="skill-linux-text">
+                            Working with Debian Linux and basic
+                            server administration.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>
+                                <i class="devicon-debian-plain"></i>
+                                Debian
+                            </span>
+
+                            <span>
+                                <i class="devicon-linux-plain"></i>
+                                Linux
+                            </span>
+
+                            <span>
+                                <i class="icon-server"></i>
+                                Server
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- IoT -->
+
+                <div class="skill-card reveal">
+
+                    <div class="skill-number">
+                        04
+                    </div>
+
+                    <div class="skill-content">
+
+                        <h3 data-i18n="skill-iot-title">
+                            IoT & Hardware
+                        </h3>
+
+                        <p data-i18n="skill-iot-text">
+                            Building simple hardware projects
+                            using Arduino and sensors.
+                        </p>
+
+                        <div class="skill-tags">
+
+                            <span>
+                                <i class="devicon-arduino-plain"></i>
+                                Arduino
+                            </span>
+
+                            <span>
+                                <i class="icon-cpu"></i>
+                                IoT
+                            </span>
+
+                            <span>
+                                <i class="icon-circuit-board"></i>
+                                Electronics
+                            </span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+
+
+        <section id="projects">
+
+            <div class="projects-heading">
+                <div>
+                    <p class="section-label">MY WORK / 06</p>
+
+                    <h2 data-i18n="projects-title">Projects</h2>
+
+                    <p class="section-intro" data-i18n="projects-intro">
+                        A collection of projects I've built while exploring technology.
+                    </p>
+                </div>
+
+                <div class="carousel-controls">
+                    <button id="projectPrev" aria-label="Previous projects">←</button>
+                    <button id="projectNext" aria-label="Next projects">→</button>
+                </div>
+            </div>
+
+            <div class="projects-carousel" id="projectsCarousel">
+                <div class="projects-track" id="projectsTrack"></div>
+            </div>
+
+            <div class="carousel-footer">
+                <div class="carousel-progress">
+                    <span id="projectProgress"></span>
+                </div>
+                <p id="projectCounter">01 / 06</p>
+                <p data-i18n="projects-hint">Drag, swipe, or use the arrows</p>
+            </div>
+
+        </section>
+
+
+
+        <!-- Journey -->
+        <section id="journey">
+
+            <h2 data-i18n="journey-title">
+                My Journey
+            </h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span>2024</span>
+
+                    <h3 data-i18n="journey-2024-title">
+                        Started SMK
+                    </h3>
+
+                    <p data-i18n="journey-2024-text">
+                        Started learning Computer and Network Engineering.
+                    </p>
+                </div>
+
+
+                <div class="timeline-item">
+                    <span>2025</span>
+
+                    <h3 data-i18n="journey-2025-title">
+                        Exploring IT
+                    </h3>
+
+                    <p data-i18n="journey-2025-text">
+                        Started working with web development,
+                        networking, and Linux.
+                    </p>
+                </div>
+
+
+                <div class="timeline-item">
+                    <span>2026</span>
+
+                    <h3 data-i18n="journey-2026-title">
+                        Building Projects
+                    </h3>
+
+                    <p data-i18n="journey-2026-text">
+                        Worked on IoT, networking, server,
+                        and web projects.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <span class="contact-label" data-i18n="contact-label">
+                        GET IN TOUCH
+                    </span>
+
+                    <h2 data-i18n="contact-title">
+                        Let's build something meaningful.
+                    </h2>
+
+                    <p class="contact-description" data-i18n="contact-text">
+                        Interested in working together, discussing technology,
+                        or just want to say hello? My inbox is always open.
+                    </p>
+
+                    <a href="mailto:muhammadevanda51@gmail.com" class="contact-email" data-i18n="contact-button">
+                        Send Me an Email <span>↗</span>
+                    </a>
+                </div>
+
+                <div class="contact-links">
+
+                    <a href="https://github.com/evan6211" target="_blank" rel="noopener noreferrer"
+                        class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.76 2.04 3.84 1.47.1-.72.39-1.2.7-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.29-2.62 5.24-5.11 5.51.4.35.75 1.02.75 2.06v3.05c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z" />
+                            </svg>
+                        </div>
+
+                        <div class="contact-card-info">
+                            <h3>GitHub</h3>
+                            <p data-i18n="contact-github">
+                                Explore my projects and code
+                            </p>
+                        </div>
+
+                        <span class="contact-arrow">↗</span>
+                    </a>
+
+                    <a href="mailto:muhammadevanda51@gmail.com" class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor"
+                                    stroke-width="1.8" />
+                                <path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+
+                        <div class="contact-card-info">
+                            <h3>Email</h3>
+                            <p data-i18n="contact-email">
+                                Send me a message
+                            </p>
+                        </div>
+
+                        <span class="contact-arrow">↗</span>
+                    </a>
+
+
+                    <div class="contact-note">
+                        <p data-i18n="contact-status">Always learning, always building.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p data-i18n="footer-text">
+            © 2026 Evan. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- PROJECT DETAIL MODAL -->
+
+    <div class="project-modal" id="projectModal" aria-hidden="true">
+        <button class="modal-backdrop" data-close-modal aria-label="Close project details"></button>
+
+        <div class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+            <button type="button" class="modal-close" data-close-modal aria-label="Close">&times;</button>
+
+            <div class="modal-visual" id="modalVisual">
+                <span id="modalNumber">01</span>
+                <span id="modalVisualLabel">PROJECT</span>
+            </div>
+
+            <div class="modal-content">
+                <p class="modal-category" id="modalCategory"></p>
+                <h2 id="modalTitle"></h2>
+                <p class="modal-description" id="modalDescription"></p>
+
+                <h3 data-i18n="modal-tools-title">Technologies & Tools</h3>
+                <div class="modal-tags" id="modalTags"></div>
+
+                <h3 data-i18n="modal-overview-title">Project Overview</h3>
+                <p class="modal-overview" id="modalOverview"></p>
+
+                <div class="modal-actions" id="modalActions"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/project.js"></script>
+
+</body>
+
+</html>
